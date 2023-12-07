@@ -30,8 +30,9 @@ You can customize various aspects of the skin, such as graph width, height, and 
   ```ini
   [Variables]
   MeterType=Line
+  LineWidthValue=2
   AntiAliasValue=1
-  
+
   ; Graph Width, Height
   GraphW=80
   GraphH=80
@@ -47,8 +48,8 @@ You can customize various aspects of the skin, such as graph width, height, and 
   FontSizeValue=12
   FontWrapSpace=4
   FontAntiAlias=0
-  FontColorValue=220,220,220,180
-  FontColorValue2=220,220,220,120
+  FontColorValue=255,255,255,220
+  FontColorValue2=220,220,220,160
   StringAlignValue=LeftTop
 
   ; Container Round Edge
@@ -60,9 +61,4 @@ You can customize various aspects of the skin, such as graph width, height, and 
 - ChatGPT4 by OpenAI
 - QinnShou
 - YeyeBBC
-
-## License
 This work is licensed under the Creative Commons Attribution-Non-Commercial-Share Alike 3.0.
-
-## Version
-0.3
