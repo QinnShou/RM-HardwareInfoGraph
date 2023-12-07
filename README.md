@@ -27,41 +27,41 @@ The QS Hardware Info Graph is a Rainmeter skin designed to display real-time har
 ## Customization
 You can customize various aspects of the skin, such as graph width, height, and other visual elements etc., by editing the `.ini` file [Variables] section.
 
-'''ini
-[Variables]
-MeterType=Line
-AntiAliasValue=1
-
-; Graph Width, Height
-GraphW=80
-GraphH=80
-
-; Graph Padding
-GraphWPad=4
-GraphHPad=4
-
-; Text Labels
-TextPadX=4
-TextPadY=0
-FontFaceValue=Fixedsys
-FontSizeValue=12
-FontWrapSpace=4
-FontAntiAlias=0
-FontColorValue=220,220,220,180
-FontColorValue2=220,220,220,120
-StringAlignValue=LeftTop
-
-; Container & Rounded rectangle by YeyeBBC
-; This controls each graph-box's shape.
-; ShapeValue=Rectangle [Relative X][Relative Y][Width][Height][Cornor radius X][Cornor radius Y]
-ShapeValue=Rectangle 0, 0, #GraphW#, #GraphH#, 5, 5
-
-;1st Type Primary R, G, B, Alpha
-1PR=220
-1PG=220
-1PB=255
-1PA=255
-'''
+  ```ini
+  [Variables]
+  MeterType=Line
+  AntiAliasValue=1
+  
+  ; Graph Width, Height
+  GraphW=80
+  GraphH=80
+  
+  ; Graph Padding
+  GraphWPad=4
+  GraphHPad=4
+  
+  ; Text Labels
+  TextPadX=4
+  TextPadY=0
+  FontFaceValue=Fixedsys
+  FontSizeValue=12
+  FontWrapSpace=4
+  FontAntiAlias=0
+  FontColorValue=220,220,220,180
+  FontColorValue2=220,220,220,120
+  StringAlignValue=LeftTop
+  
+  ; Container & Rounded rectangle by YeyeBBC
+  ; This controls each graph-box's shape.
+  ; ShapeValue=Rectangle [Relative X][Relative Y][Width][Height][Cornor radius X][Cornor radius Y]
+  ShapeValue=Rectangle 0, 0, #GraphW#, #GraphH#, 5, 5
+  
+  ;1st Type Primary R, G, B, Alpha
+  1PR=220
+  1PG=220
+  1PB=255
+  1PA=255
+  ```
 
 ## Authors
 - ChatGPT4 by OpenAI
