@@ -1,2 +1,72 @@
-# RM-HardwareInfoGraph
-Raimeter hardware info graph using HWiNFO64 info.
+# QS Hardware Info Graph Rainmeter Skin
+
+## Overview
+The QS Hardware Info Graph is a Rainmeter skin designed to display real-time hardware information in a grid format. This skin is perfect for users who want to keep a close eye on their system's performance with a sleek and informative display.
+
+## Features
+- Real-time hardware information display.
+- Customizable grid layout.
+- Clean and minimalist design.
+
+## Requirements
+- Rainmeter 4.0 or higher.
+- HWiNFO64 for hardware data.
+
+## Installation
+1. Download and install Rainmeter from [Rainmeter's official website](https://www.rainmeter.net/).
+2. Download and install [HWiNFO64](https://www.hwinfo.com/download/).
+3. Config HWiNFO64 to enable memory sharing and Gadget report. [Rainmeter tutorial](https://docs.rainmeter.net/tips/hwinfo/).
+5. Run Windows CMD: reg query HKEY_CURRENT_USER\SOFTWARE\HWiNFO64\VSB
+7. Download and install the QS Hardware Info Graph skin.
+8. Modify the ini file for correct report ID.
+10. Load the skin via the Rainmeter Manage window.
+
+## Customization
+You can customize various aspects of the skin, such as graph width, height, and other visual elements etc., by editing the `.ini` file [Variables] section.
+
+'''ini
+[Variables]
+MeterType=Line
+AntiAliasValue=1
+
+; Graph Width, Height
+GraphW=80
+GraphH=80
+
+; Graph Padding
+GraphWPad=4
+GraphHPad=4
+
+; Text Labels
+TextPadX=4
+TextPadY=0
+FontFaceValue=Fixedsys
+FontSizeValue=12
+FontWrapSpace=4
+FontAntiAlias=0
+FontColorValue=220,220,220,180
+FontColorValue2=220,220,220,120
+StringAlignValue=LeftTop
+
+; Container & Rounded rectangle by YeyeBBC
+; This controls each graph-box's shape.
+; ShapeValue=Rectangle [Relative X][Relative Y][Width][Height][Cornor radius X][Cornor radius Y]
+ShapeValue=Rectangle 0, 0, #GraphW#, #GraphH#, 5, 5
+
+;1st Type Primary R, G, B, Alpha
+1PR=220
+1PG=220
+1PB=255
+1PA=255
+'''
+
+## Authors
+- ChatGPT4 by OpenAI
+- QinnShou
+- YeyeBBC
+
+## License
+This work is licensed under the Creative Commons Attribution-Non-Commercial-Share Alike 3.0.
+
+## Version
+0.3
