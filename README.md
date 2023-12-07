@@ -50,17 +50,10 @@ You can customize various aspects of the skin, such as graph width, height, and 
   FontColorValue=220,220,220,180
   FontColorValue2=220,220,220,120
   StringAlignValue=LeftTop
-  
-  ; Container & Rounded rectangle by YeyeBBC
-  ; This controls each graph-box's shape.
-  ; ShapeValue=Rectangle [Relative X][Relative Y][Width][Height][Cornor radius X][Cornor radius Y]
+
+  ; Container Round Edge
   ShapeValue=Rectangle 0, 0, #GraphW#, #GraphH#, 5, 5
-  
-  ;1st Type Primary R, G, B, Alpha
-  1PR=220
-  1PG=220
-  1PB=255
-  1PA=255
+  ...
   ```
 
 ## Authors
