@@ -19,9 +19,10 @@ The QS Hardware Info Graph is a Rainmeter skin designed to display real-time har
 1. Download and install Rainmeter from [Rainmeter's official website](https://www.rainmeter.net/).
 2. Download and install [HWiNFO64](https://www.hwinfo.com/download/).
 3. Config HWiNFO64 to enable memory sharing and Gadget report. [Rainmeter tutorial](https://docs.rainmeter.net/tips/hwinfo/).
+![Rainmeter-HWiNFO64 Data Pull How-to](https://github.com/QinnShou/RM-HardwareInfoGraph/blob/main/Screenshot%20Sensor%20Howto.png)
 5. Run Windows CMD: reg query HKEY_CURRENT_USER\SOFTWARE\HWiNFO64\VSB
 7. Download and install the QS Hardware Info Graph skin.
-8. Modify the ini file for correct report ID.
+8. Modify the ini file for the correct report ID.
 10. Load the skin via the Rainmeter Manage window.
 
 ## Customization
