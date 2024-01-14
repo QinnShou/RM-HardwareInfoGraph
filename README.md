@@ -59,8 +59,8 @@ You can customize various aspects of the skin, such as graph width, height, and 
   ```
 
 ## Authors
-- ChatGPT4 by OpenAI
-- QinnShou
-- YeyeBBC
+- QinnShou (author of script)
+- YeyeBBC (author of several function)
+- ChatGPT by OpenAI (assisting with basic script structure, rainmeter Q&A, writting this readme.md)
 
 This work is licensed under the Creative Commons Attribution-Non-Commercial-Share Alike 3.0.
