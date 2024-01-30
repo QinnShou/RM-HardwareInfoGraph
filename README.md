@@ -6,10 +6,11 @@
 The QS Hardware Info Graph is a Rainmeter skin designed to display real-time hardware information in a grid format. This skin is perfect for users who want to keep a close eye on their system's performance with a sleek and informative display.
 
 ## Features
-- Real-time hardware information display.
-- Highly customizable.
-- Grid auto-scaling.
-- Clean and minimalist design.
+- Real-time hardware information display
+- Highly customizable (Color, Size, Padding, etc.)
+- Grid auto-scaling based on size and padding.
+- High temperature warning
+- Clean and minimalist design
 
 ## Requirements
 - Rainmeter 4.0 or higher.
