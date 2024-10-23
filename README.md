@@ -30,33 +30,36 @@ The QS Hardware Info Graph is a Rainmeter skin designed to display real-time har
 You can customize various aspects of the skin, such as graph width, height, and other visual elements etc., by editing the `.ini` file [Variables] section.
 
   ```ini
-  [Variables]
-  MeterType=Line
-  LineWidthValue=2
-  AntiAliasValue=1
+[Variables]
+MeterType=Line
+LineWidthValue=1
+;Try out Line or Histogram!
 
-  ; Graph Width, Height
-  GraphW=80
-  GraphH=80
-  
-  ; Graph Padding
-  GraphWPad=4
-  GraphHPad=4
-  
-  ; Text Labels
-  TextPadX=4
-  TextPadY=0
-  FontFaceValue=Fixedsys
-  FontSizeValue=12
-  FontWrapSpace=4
-  FontAntiAlias=0
-  FontColorValue=255,255,255,220
-  FontColorValue2=220,220,220,160
-  StringAlignValue=LeftTop
+AntiAliasValue=1
+; Graph Width, Height
+GraphW=80
+GraphH=80
 
-  ; Container Round Edge
-  ShapeValue=Rectangle 0, 0, #GraphW#, #GraphH#, 5, 5
-  ...
+; Graph Padding
+GraphWPad=4
+GraphHPad=4
+
+; Text Labels
+TextPadX=4
+TextPadY=0
+FontFaceValue=OCR A
+FontSizeValue=12
+FontWrapSpace=8
+FontAntiAlias=1
+FontColorValue=255,255,255,160
+FontColorValue2=255,255,255,200
+StringAlignValue=LeftTop
+InlineSetting1=Shadow |0|2|2|0,0,0,200
+InlineSetting2=Shadow |0|2|2|0,0,0,200
+
+; Container Round Edge
+ShapeValue=Rectangle 0, 0, #GraphW#, #GraphH#, 5, 5
+...
   ```
 
 ## Authors
