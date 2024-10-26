@@ -2,6 +2,7 @@
 
 ![Rainmeter HardwareInfoGraph Screenshot](https://github.com/QinnShou/RM-HardwareInfoGraph/blob/main/Screenshot.png) 
 ![Rainmeter HardwareInfoGraph Screenshot2](https://github.com/QinnShou/RM-HardwareInfoGraph/blob/main/Screenshot2.png)
+
 Left: on desktop / Right: in Cyberpunk2077
 
 ## Overview
