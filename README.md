@@ -1,6 +1,7 @@
 # QS Hardware Info Graph Rainmeter Skin
 
-![Rainmeter HardwareInfoGraph Screenshot](https://github.com/QinnShou/RM-HardwareInfoGraph/blob/main/Screenshot.png) (https://github.com/QinnShou/RM-HardwareInfoGraph/blob/main/Screenshot%202.png)
+![Rainmeter HardwareInfoGraph Screenshot](https://github.com/QinnShou/RM-HardwareInfoGraph/blob/main/Screenshot.png) 
+![Rainmeter HardwareInfoGraph Screenshot2](https://github.com/QinnShou/RM-HardwareInfoGraph/blob/main/Screenshot%202.png)
 
 ## Overview
 The QS Hardware Info Graph is a Rainmeter skin designed to display real-time hardware information in a grid format. This skin is perfect for users who want to keep a close eye on their system's performance with a sleek and informative display.
